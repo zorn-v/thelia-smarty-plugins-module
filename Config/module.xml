@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://thelia.net/schema/dic/module"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://thelia.net/schema/dic/module http://thelia.net/schema/dic/module/module-2_2.xsd">
+    <fullnamespace>TheliaSmartyPlugins\TheliaSmartyPlugins</fullnamespace>
+    <descriptive locale="en_US">
+        <title>Addition plugins for TheliaSmarty</title>
+    </descriptive>
+    <descriptive locale="ru_RU">
+        <title>Дополнительные плагины для TheliaSmarty</title>
+    </descriptive>
+    <languages>
+        <language>en_US</language>
+        <language>ru_RU</language>
+    </languages>
+    <version>1.0</version>
+    <authors>
+        <author>
+            <name>zorn-v</name>
+            <email>zorn84@bk.ru</email>
+        </author>
+    </authors>
+    <type>classic</type>
+    <required>
+        <module version="&gt;=2.3">TheliaSmarty</module>
+    </required>
+    <thelia>2.3.0</thelia>
+    <stability>other</stability>
+</module>

@@ -1,0 +1,12 @@
+{
+  "name": "zorn-v/thelia-smarty-plugins-module",
+  "license": "LGPL-3.0+",
+  "type": "thelia-module",
+  "require": {
+    "thelia/installer": "~1.1",
+    "thelia/smarty-module": "^2.2"
+  },
+  "extra": {
+    "installer-name": "TheliaSmartyPlugins"
+  }
+}
